@@ -1,0 +1,69 @@
+# === UiPath project-specific ignores ===
+.project.json
+*.local.json
+*.screenshots
+*.logs
+*.cache
+*.screenshots
+*.template.json
+
+# Publish folders
+Output/
+publish/
+
+# Settings files
+.settings/
+.settings.json
+.project.settings.json
+
+# Orchestrator related
+OrchestratorAssets.json
+OrchestratorConfig.json
+*.secrets.json
+
+# Credential or secure info files
+config.xlsx
+credentials.xlsx
+*.key
+*.pfx
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# VSCode or IDE
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Log and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Node or Python (in case you use scripts)
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# Misc
+.DS_Store
+*.nupkg
+Packages/
+TestResults/
+.nuget/
+
+# Optional: exclude all Excel or CSV if they are config files
+*.xlsx
+*.csv
+
+# Allow explicitly tracked files
+!.gitkeep
